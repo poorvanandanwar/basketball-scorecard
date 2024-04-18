@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Basketball scorecard</title>
+        <link rel="stylesheet" href="css/basketball.css">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="container">
+        
+        <div class="home">
+        <h1>HOME</h1>
+        <button id="home-btn">0</button>
+        <div class="operate">
+        
+        <button id="home-1" onclick="plusone()">+1</button>
+        <button id="home-2" onclick="plustwo()">+2</button>
+        <button id="home-3" onclick="plusthree()">+3</button>
+        </div>
+        </div>
+        <div class="guest">
+        <h1>GUEST</h1>
+        <button id="guest-btn">0</button>
+        <div class="operate">
+        
+        <button id="guest-1" onclick="plusoneg()">+1</button>
+        <button id="guest2" onclick="plustwog()">+2</button>
+        <button id="guest-3" onclick="plusthreeg()">+3</button>
+        </div>
+        </div>
+    </div>
+    <div class="container-two">
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="home-count">Home count:</p>
+        <p id="guest-count">Guest count:</p>
+    </div>
+    <script src="js/basketball.js"></script>
+    </body>
+</html>

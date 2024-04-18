@@ -1,0 +1,105 @@
+body{
+    background-color: #eff6ee;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    margin: 33px auto;
+    display:flex;
+    background: #273043;
+    color: #eff6ee;
+    width:550px;
+    height: 350px;
+    text-align: center;
+    padding:30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+}
+h1{
+    font-size:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.home, .guest{
+    margin:0px 25px;
+}
+#home-btn, #guest-btn{
+    width:155px;
+    height: 120px;
+    margin:15px;
+    background-color: #eff6ee;
+    color: #273043;
+    font-size: 90px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 7px;
+}
+.operate > button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: transparent;
+    color: #eff6ee;
+    border: 2px solid #eff6ee;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+.operate > button:active{
+    background-color: rgba(255, 255, 255, 0.275);
+}
+.container-two{
+    display:flex;
+    background: #9197ae;
+    margin: 33px auto;
+    color:#eff6ee;
+    width:550px;
+    height: 200px;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 9px;
+    border: 3px solid #273043;
+    padding: 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+    font-weight: bold;
+    font-size: 18px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#save-btn{
+    margin: 10px;
+    padding: 10px 7px;
+    width:150px;
+    border-radius: 3px;
+    position: sticky;
+    top:0;
+    font-size:13px;
+    font-weight:bold;
+    color:#273043;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #eff6ee;
+    border: none;
+}
+#save-btn:active{
+    background-color: #9197ae;
+}
+.container-two >p{
+    color: #273043;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#home-count{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#guest-count{
+    margin-bottom: 20px;
+}
+    
